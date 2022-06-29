@@ -51,8 +51,14 @@ button{
     align-self: center;
     position: absolute;
     left: 42.5%;
-    bottom: -7%;
+    bottom: -7%;  
+    transition: all 0.3s ease-in-out;
 }
+button:hover {
+    color: #52ffa8;
+    box-shadow: 1px 1px 8px 8px rgba(82, 255, 168, 0.6);
+    transform: scale(1.1);
+  }
 @media  (max-width: 450px) {
     .card{
         width: 350px;
