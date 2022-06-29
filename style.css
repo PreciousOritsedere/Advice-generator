@@ -36,8 +36,12 @@ h6{
     position: relative;
     
 }
+p{
+    margin: 20px 0px;
+}
 .divider{
-    margin-bottom: 20px;
+    margin: 20px 0;
+    
 }
 button{
     background-color: #52ffa8;
@@ -51,7 +55,14 @@ button{
 }
 @media  (max-width: 450px) {
     .card{
-        width: 300px;
+        width: 350px;
+    }
+    button{
+        left: 40%;
+
+    }
+    .divider{
+        width: 100%;
     }
     
 }
